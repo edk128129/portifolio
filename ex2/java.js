@@ -17,7 +17,7 @@ function maior(){
  }
  else{
      let quant = 18 - idade
- alert("voce tem q esperar " + quant , "anos")
+ alert("voce tem q esperar " + quant + "anos")
  alert
  }
  

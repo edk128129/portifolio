@@ -4,7 +4,17 @@ function somar(){
     
      num3 = num1 + num2 
 
-     alert("o resultado da soma e "+num3 )
+     function checkevenorodd(num3){
+     if (num3 % 2 == 0 ){
+          alert("o numero "+ num3 + " e par.")
+     }
+     else
+     {
+          alert("o numero "+ num3 + " e impar.")
+     }
+     }
+     checkevenorodd(num3);
+
 }
 function diminuir(){
      num1 = Number(window.prompt("numero 1: "));
@@ -12,7 +22,16 @@ function diminuir(){
     
      num3 = num1 - num2 
 
-     alert("o resultado da subtração e "+num3 );
+     function checkevenorodd(num3){
+          if (num3 % 2 == 0 ){
+               alert("o numero "+ num3 + " e par.")
+          }
+          else
+          {
+               alert("o numero "+ num3 + " e impar.")
+          }
+          }
+          checkevenorodd(num3);
 }
 function divisao(){
      num1 = Number(window.prompt("numero 1: "));
@@ -20,7 +39,16 @@ function divisao(){
     
      num3 = num1 / num2 
 
-     alert("o resultado da diviçao e "+num3 )
+     function checkevenorodd(num3){
+          if (num3 % 2 == 0 ){
+               alert("o numero "+ num3 + " e par.")
+          }
+          else
+          {
+               alert("o numero "+ num3 + " e impar.")
+          }
+          }
+          checkevenorodd(num3);
 }
 function multiplicaçao(){
      num1 = Number(window.prompt("numero 1: "));
@@ -28,5 +56,14 @@ function multiplicaçao(){
     
      num3 = num1 * num2 
 
-     alert("o resultado da multiplicaçao e "+num3 )
+     function checkevenorodd(num3){
+          if (num3 % 2 == 0 ){
+               alert("o numero "+ num3 + " e par.")
+          }
+          else
+          {
+               alert("o numero "+ num3 + " e impar.")
+          }
+          }
+          checkevenorodd(num3);
 }

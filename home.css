@@ -1,31 +1,30 @@
 body{
-color: white;
+color: rgb(146, 146, 146);
 background-color: black;
 }
 
-h1{background-color: darkslategray;
-   text-align: center;}
+h1{text-align: center;
+   font-size: 30px;}
 
 a{text-decoration: none;
-  color: blue;
-  background-color: black;
-  border-radius: 30%
+  color: rgb(132, 132, 132);
+  padding: 20px;
   }
 
 a:hover {
-    color:red;
+    color: rgb(195, 195, 195);
     text-decoration:underline;
-    transition: 1s all;
     cursor: pointer;
-    font-size: 23px;
-}
-
+    font-size: 15px;
+}   
 .copyrilght{
-margin-top: 100%;
 text-align: center;
 }
-
 .pro{
   text-align: center;
-  background-color:darkslategray;
+}
+button{
+  border-color: rgb(48, 47, 47);
+  background-color: rgba(60, 60, 60, 0.56);
+  padding: 10px;
 }
